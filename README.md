@@ -1,31 +1,54 @@
-# 🐍 Bootcamp TOTVS — Fundamentos de Engenharia de Dados e Machine Learning
+# 🎓 Bootcamp TOTVS — Fundamentos de Engenharia de Dados e Machine Learning
 
-Repositório de estudos do Bootcamp TOTVS, documentando minha jornada de aprendizado em Python e Engenharia de Dados.
+Repositório de estudos do Bootcamp TOTVS, documentando minha jornada de aprendizado em Engenharia de Dados, Python, Banco de Dados, Machine Learning e mais.
 
 ---
 
 ## 👩‍💻 Sobre
 
-Olá! Sou **Renata Citelli**, estudante de Ciência de Dados e apaixonada por tecnologia.  
-Este repositório reúne os exercícios e anotações desenvolvidos ao longo do Bootcamp TOTVS — Fundamentos de Engenharia de Dados e Machine Learning.
+Olá! Sou **Renata Citelli**, estudante de Ciência de Dados e apaixonada por tecnologia.
+Este repositório reúne os exercícios, anotações e desafios desenvolvidos ao longo do Bootcamp TOTVS — organizados por módulo para facilitar a consulta e acompanhar minha evolução.
 
-Cada pasta representa um módulo concluído, com código comentado e exemplos práticos do que aprendi.
+---
+
+## 📂 Estrutura do Repositório
+
+```
+dio/
+│
+├── 01_python/
+│   ├── 01_ambiente_primeiros_passos.py
+│   ├── 02_operadores.py
+│   ├── 03_condicionais_repeticao.py
+│   ├── 04_strings.py
+│   ├── 05_listas.py
+│   ├── 06_tuplas.py
+│   ├── 07_conjuntos.py
+│   ├── 08_dicionarios.py
+│   ├── 09_git_github.md
+│   ├── 10_funcoes.py
+│   └── desafios/
+│       ├── desafio_01_desconto_pedido.py
+│       ├── desafio_02_aprovacao_pedido.py
+│       └── README.md
+├── 02_banco_de_dados/
+├── 03_analise_dados_excel_copilot/
+├── 04_computacao_em_nuvem/
+├── 05_machine_learning/
+└── README.md
+```
 
 ---
 
 ## 📚 Módulos
 
-| # | Módulo | Arquivo | Conteúdo |
-|---|--------|---------|----------|
-| 01 | [Ambiente e Primeiros Passos](./01_ambiente_python/) | [primeiros_passos.py](./01_ambiente_python/primeiros_passos.py) | Paradigmas do Python, tipos de dados, variáveis, f-strings |
-| 02 | [Tipos de Operadores](./02_operadores/) | [operadores.py](./02_operadores/operadores.py) | Operadores aritméticos, relacionais, lógicos e de atribuição |
-| 03 | [Condicionais e Repetição](./03_condicionais_repeticao/) | [condicionais.py](./03_condicionais_repeticao/condicionais.py) | if, elif, else, for, while, break, continue |
-| 04 | [Manipulando Strings](./04_strings/) | [strings.py](./04_strings/strings.py) | Métodos de string, fatiamento, split, join, f-strings |
-| 05 | [Trabalhando com Listas](./05_listas/) | [listas.py](./05_listas/listas.py) | Criação, manipulação, ordenação e list comprehension |
-| 06 | [Conhecendo Tuplas](./06_tuplas/) | [tuplas.py](./06_tuplas/tuplas.py) | Imutabilidade, desempacotamento e conversão |
-| 07 | [Conjuntos (Sets)](./07_conjuntos/) | [conjuntos.py](./07_conjuntos/conjuntos.py) | União, interseção, diferença e remoção de duplicatas |
-| 08 | [Dicionários](./08_dicionarios/) | [dicionarios.py](./08_dicionarios/dicionarios.py) | Pares chave:valor, métodos, aninhamento e dict comprehension |
-| 09 | [Git e GitHub](./09_git_github/) | [anotacoes_git.md](./09_git_github/anotacoes_git.md) | Versionamento, comandos essenciais e boas práticas |
+| # | Módulo | Status |
+|---|--------|--------|
+| 01 | [Python — Fundamentos](./01_python/) | ✅ Concluído |
+| 02 | [Banco de Dados](./02_banco_de_dados/) | 🔄 Em andamento |
+| 03 | [Análise de Dados com Excel e Copilot](./03_analise_dados_excel_copilot/) | 🔒 Em breve |
+| 04 | [Computação em Nuvem](./04_computacao_em_nuvem/) | 🔒 Em breve |
+| 05 | [Machine Learning](./05_machine_learning/) | 🔒 Em breve |
 
 ---
 
@@ -35,34 +58,6 @@ Cada pasta representa um módulo concluído, com código comentado e exemplos pr
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![TOTVS](https://img.shields.io/badge/Bootcamp-TOTVS-blue?style=flat)
-
----
-
-## 📂 Estrutura do Repositório
-
-```
-dio/
-│
-├── 01_ambiente_python/
-│   └── primeiros_passos.py
-├── 02_operadores/
-│   └── operadores.py
-├── 03_condicionais_repeticao/
-│   └── condicionais.py
-├── 04_strings/
-│   └── strings.py
-├── 05_listas/
-│   └── listas.py
-├── 06_tuplas/
-│   └── tuplas.py
-├── 07_conjuntos/
-│   └── conjuntos.py
-├── 08_dicionarios/
-│   └── dicionarios.py
-├── 09_git_github/
-│   └── anotacoes_git.md
-└── README.md
-```
 
 ---
 
@@ -76,23 +71,8 @@ git clone https://github.com/ReehCitelli/dio.git
 cd dio
 
 # Execute qualquer script Python
-python 03_condicionais_repeticao/condicionais.py
+python 01_python/03_condicionais_repeticao.py
 ```
-
----
-
-## 📈 Progresso
-
-- [x] Ambiente e Primeiros Passos
-- [x] Tipos de Operadores
-- [x] Condicionais e Repetição
-- [x] Manipulando Strings
-- [x] Trabalhando com Listas
-- [x] Conhecendo Tuplas
-- [x] Conjuntos (Sets)
-- [x] Dicionários
-- [x] Git e GitHub
-- [ ] Próximos módulos em andamento...
 
 ---
 
@@ -104,5 +84,5 @@ python 03_condicionais_repeticao/condicionais.py
 
 ---
 
-> *"Começar é mais importante do que esperar o momento perfeito."*  
+> *"Começar é mais importante do que esperar o momento perfeito."*
 > — Renata Citelli
