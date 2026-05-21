@@ -105,14 +105,15 @@ git commit -m "docs: atualiza README com novos módulos"
 git commit -m "refactor: reorganiza estrutura de pastas"
 ```
 
-| Prefixo    | Uso |
-|------------|-----|
-| `feat:`    | Nova funcionalidade |
-| `fix:`     | Correção de bug |
-| `docs:`    | Documentação |
-| `refactor:`| Refatoração de código |
-| `test:`    | Testes |
-| `chore:`   | Tarefas gerais |
+| Prefixo      | Uso                                          |
+|--------------|----------------------------------------------|
+| `feat:`      | Nova funcionalidade ou código novo           |
+| `fix:`       | Correção de bug ou erro                      |
+| `docs:`      | Criou ou atualizou documentação              |
+| `refactor:`  | Reorganizou código sem mudar o que ele faz   |
+| `add:`       | Adicionou arquivos novos                     |
+| `test:`      | Testes                                       |
+| `chore:`     | Tarefas gerais                               |
 
 ---
 
