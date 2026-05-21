@@ -32,6 +32,16 @@ dio/
 │       ├── desafio_02_aprovacao_pedido.py
 │       └── README.md
 ├── 02_banco_de_dados/
+│   ├── conceitos_basicos.md
+│   ├── sql.md
+│   ├── modelagem.md
+│   ├── tabelas_colunas_registros.md
+│   ├── normalizacao_dados.md
+│   ├── consulta_join.md
+│   ├── subconsulta.md
+│   ├── funcoes_agregadas.md
+│   ├── indices.md
+│   └── README.md
 ├── 03_analise_dados_excel_copilot/
 ├── 04_computacao_em_nuvem/
 ├── 05_machine_learning/
@@ -52,9 +62,23 @@ dio/
 
 ---
 
+## 📋 Progresso detalhado — Banco de Dados
+
+| | Curso | Nível | Status |
+|---|-------|-------|--------|
+| ✅ | Introdução a Banco de Dados Relacionais | Intermediário | Concluído |
+| 🔄 | Introdução a Banco de Dados NoSQL | Intermediário | Em andamento |
+| 🔒 | Fundamentos de ETL com Python | Intermediário | Em breve |
+| 🔒 | Desafios de Projetos: Crie Um Portfólio Vencedor | Básico | Em breve |
+| 🔒 | Explorando IA Generativa em um Pipeline de ETL com Python | Avançado | Em breve |
+| 🔒 | Praticando Fundamentos de ETL com Python | Básico | Em breve |
+
+---
+
 ## 🛠️ Tecnologias
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![TOTVS](https://img.shields.io/badge/Bootcamp-TOTVS-blue?style=flat)
